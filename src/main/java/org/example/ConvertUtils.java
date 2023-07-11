@@ -24,7 +24,7 @@ public class ConvertUtils {
 
     private static final String JNA_LIB_PATH = getJnaLibraryPath();
 
-    public static void main(String[] args) throws URISyntaxException, IOException {
+    public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
         System.setProperty("jna.encoding", "UTF-8");
         String jnaLibraryPath = getJnaLibraryPath();
         System.out.println("jnaLibraryPath = " + jnaLibraryPath);
