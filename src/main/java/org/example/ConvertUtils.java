@@ -32,7 +32,7 @@ public class ConvertUtils {
         //windows
         //ConvertUtils.convertTiff("D:\\20230706131629.tiff", "d:\\tiff");
         //linux
-        ConvertUtils.convertTiff("/home/hejian/gdal_test/20230706131629.tiff", "/home/hejian/gdal_test/tiff");
+        ConvertUtils.convertTiff("/root/202307061316291.tiff", "/root/gdal_test");
     }
 
     private static String getJnaLibraryPath() {
