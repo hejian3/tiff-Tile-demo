@@ -9,3 +9,9 @@ mvn clean package
 ```bash
 java -jar tiff-Tile-demo-1.0-SNAPSHOT.jar
 ```
+
+# docker运行
+```bash
+docker build -t tt .
+docker run -it tt bash
+```
