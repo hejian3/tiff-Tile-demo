@@ -42,7 +42,7 @@ public class ConvertUtils {
             Path jar_path;
             String path = Platform.RESOURCE_PREFIX;
             if (current_jar_dir.getPath().contains(SPRING_JAR)) {
-                jar_path = Paths.get(current_jar_dir.toString().substring(10, current_jar_dir.toString().indexOf(SPRING_JAR) - 2));
+                jar_path = Paths.get(current_jar_dir.toString().substring(9, current_jar_dir.toString().indexOf(SPRING_JAR) - 2));
                 path = SPRING_JAR + "/" + Platform.RESOURCE_PREFIX;
             } else {
                 jar_path = Paths.get(current_jar_dir.toURI());
